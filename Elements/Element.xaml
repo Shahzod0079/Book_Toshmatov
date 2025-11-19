@@ -11,15 +11,15 @@
 			<ColumnDefinition Width="1*"/>
 		</Grid.ColumnDefinitions>
 
-		<TextBlock x:Name="tbName" Text="Название: Путешествие в Элевсин"
+		<TextBlock x:Name="tbName" Text="Название"
                    Margin="10,10,10,0" VerticalAlignment="Top"
                    Foreground="White" FontWeight="Bold" Grid.ColumnSpan="2"/>
 
-		<TextBlock x:Name="tbGenre" Text="Жанр: Современная русская литература"
+		<TextBlock x:Name="tbGenre" Text="Жанр"
                    Margin="10,36,10,10" Foreground="White" TextWrapping="Wrap"
                    Grid.Column="0"/>
 
-		<TextBlock x:Name="tbAuthor" Text="Автор: Виктор Пелевин"
+		<TextBlock x:Name="tbAuthor" Text="Автор"
                    Margin="10,36,10,10" Foreground="White" TextWrapping="Wrap"
                    Grid.Column="1"/>
 	</Grid>
